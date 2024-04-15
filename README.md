@@ -1,16 +1,4 @@
-# text_and_button_counter
+# SEE BRANCHES TO see other basics
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Stateless Demo (text and button increment decrement)
+![image](https://github.com/ddreambug/flutter_learning-Basic_From_Book/assets/86515936/9649e282-6278-44ef-8d1f-9e95157a23b1)
