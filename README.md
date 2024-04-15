@@ -1,16 +1,7 @@
 # text_and_button_counter
 
-A new Flutter project.
+Untuk mengupdate text secara otomatis saat memencet button dengan menginject variabel kedalam string (string interpolation)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Demo
+![image](https://github.com/ddreambug/flutter_learning-Basic_From_Book/assets/86515936/0448bddb-14c5-4c8b-b519-3ea6aaa2a6d0)
+![image](https://github.com/ddreambug/flutter_learning-Basic_From_Book/assets/86515936/b05b82b0-a7eb-43b1-adef-e92fed7c0576)
