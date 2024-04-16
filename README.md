@@ -1,9 +1,10 @@
 # row_column_implementation
 
 Yang ku pelajari:
-1. Navigation Push untuk stacking widget. otomatis muncul tombol back di appbar
+1. ❗ Navigator.push(context,MaterialPageRoute(builder:(BuildContext context{return const ColumnDemo()})))
+   untuk stacking widget. otomatis muncul tombol back di appbar
 2. row dan column
-3. object Image.asset dan propertinya untuk memunculkan image
+3. ❗object Image.asset dan propertinya untuk memunculkan image
 4. Setting pubspect.yaml untuk memvalidasi adanya image baru (otherwise tidak bisa dipakai asetnya)
 5. container - margin(container dan element diluar kontainer) and padding(container dan child)
 
