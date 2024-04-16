@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
               titleLarge: TextStyle(
                   fontWeight: FontWeight.normal,
                   color: kColorScheme.onSecondaryContainer,
-                  fontSize: 14))),
+                  fontSize: 15))),
       home: const DemoSwitch(),
     );
   }

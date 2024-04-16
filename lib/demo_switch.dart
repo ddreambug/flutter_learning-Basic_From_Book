@@ -10,31 +10,65 @@ class DemoSwitch extends StatefulWidget {
 }
 
 class _DemoSwitchState extends State<DemoSwitch> {
-  final image1 = 'lib/assets/images/vegaHijau.png';
-  final image2 = 'lib/assets/images/vegaKuning.png';
+  String imageAssets = 'lib/assets/images/vegaHijau.png';
+  String imageNumber = '1. Vegasaurus Hijau';
+  final iconRight = const Icon(Icons.arrow_right);
+
+  void selectImage(int index) {
+    setState(() {
+      switch (index) {
+        case 0:
+          imageAssets = 'lib/assets/images/vegaHijau.png';
+          imageNumber = '1. Vegasaurus Hijau';
+          break;
+        case 1:
+          imageAssets = 'lib/assets/images/vegaKuning.png';
+          imageNumber = '2. Vegasaurus Kuning';
+          break;
+      }
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Demo Switch Untuk Mengganti Komponen'),
+        title: Text.rich(TextSpan(children: [
+          const TextSpan(text: 'Demo Switch Untuk Mengubah Komponen '),
+          WidgetSpan(child: iconRight)
+        ])),
+        actions: [
+          IconButton(
+            onPressed: () {
+              selectImage(0);
+            },
+            icon: const Icon(
+              Icons.change_circle_sharp,
+              color: Colors.green,
+            ),
+          ),
+          IconButton(
+            onPressed: () {
+              selectImage(1);
+            },
+            icon: const Icon(
+              Icons.change_circle_sharp,
+              color: Colors.yellow,
+            ),
+          ),
+        ],
+
         //button gantinya ada di sini
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Image.asset(
-            'lib/assets/images/vegaHijau.png',
+            imageAssets,
             width: double.infinity,
             height: 200,
           ),
-          const Text('Image 1'),
-          const Divider(),
-          Image.asset(
-            'lib/assets/images/vegaKuning.png',
-            width: double.infinity,
-            height: 200,
-          ),
-          const Text('Image 2'),
+          Text('Gambar $imageNumber'),
         ],
       ),
     );
