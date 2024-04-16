@@ -1,16 +1,13 @@
 # switch_case_ganti_image
 
-A new Flutter project.
+Yang ku pelajari:
+1. review cara insert image. ada cara baru di pubspec.yaml tidak perlu file spesifik, cukup direktorinya juga bisa
+2. review string interpolation dan errornya. tadi errornya bug di flutternya setelah force reload emulator jadi OK
+3. review onpressed pada iconbutton di appbar yg udah dipersingkat dengan switch case
+4. ❗penggunaan **Text.rich(Textspan())** dalam title appbar untuk memadukan text dan icon
+5. ❗penggunaan fungsi **selectImage()** dengan sistem **switch-case** untuk mempermudah fungsi **onclick** pada iconButton
+6. review penambahan properti color pada **action iconButton**
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## demo 
+![image](https://github.com/ddreambug/flutter_learning-Basic_From_Book/assets/86515936/0f145ec8-2212-4539-a9e5-ecb906051abb)
+![image](https://github.com/ddreambug/flutter_learning-Basic_From_Book/assets/86515936/c4e34f0c-b048-40c4-bb1c-5e4a2f246ba1)
