@@ -19,11 +19,11 @@ class _DemoSwitchState extends State<DemoSwitch> {
       switch (index) {
         case 0:
           imageAssets = 'lib/assets/images/vegaHijau.png';
-          imageNumber = '1. Vegasaurus Hijau';
+          imageNumber = '1. Dinosaurus Hijau';
           break;
         case 1:
           imageAssets = 'lib/assets/images/vegaKuning.png';
-          imageNumber = '2. Vegasaurus Kuning';
+          imageNumber = '2. Dinosaurus Kuning';
           break;
       }
     });
